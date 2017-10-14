@@ -2,6 +2,7 @@ var clock = document.querySelector('#clock');
 
 
 function logTime() {
+  // get the time
   var time = new Date();
   var hour = time.getHours();
   var minute = time.getMinutes();
@@ -30,9 +31,9 @@ function logTime() {
   clock.innerHTML = hour + ':' + minute + ':' + second;
 }
 
-setInterval(logTime, 1000);
+setInterval(logTime, 1000); // check time every second
 
-function logHour() {
+(function logHour() {
   var date = new Date();
   var hrs = date.getHours();
 
@@ -54,7 +55,7 @@ function logHour() {
   // evening
   else if (hrs >= 16 && hrs <= 19) {
     document.body.className = "evening",
-    greeting.innerHTML = 'Is it time for happy hour yet?';
+      greeting.innerHTML = 'Is it time for happy hour yet?';
   }
   // night
   else if (hrs >= 20 && hrs <= 23) {
@@ -66,5 +67,7 @@ function logHour() {
     document.body.className = "lateNight"
     greeting.innerHTML = "You'/re up late!";
   };
-}
-setInterval(logHour, 1500);
+  setTimeout(logHour, 60000); // check time every minute, in case someone is viewing page at XX:59
+})();
+
+// Got the suggestion for wrapping my setTimeout in the logHour function from Stack Overflow - this will run the function on load and then begin the interval counter. Now it doesn't have to refresh every second for something that would only change every few hours. This is called an immediately invoked function expression.
