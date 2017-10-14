@@ -40,7 +40,7 @@ setInterval(logTime, 1000); // check time every second
   // early am
   if (hrs >= 4 && hrs <= 7) {
     document.body.className = "earlyAm";
-    greeting.innerHTML = "You'/re up early!";
+    greeting.innerHTML = "Wow, you'/re up early!";
   }
   // morning
   else if (hrs >= 8 && hrs <= 11) {
@@ -50,7 +50,7 @@ setInterval(logTime, 1000); // check time every second
   // afternoon
   else if (hrs >= 12 && hrs <= 15) {
     document.body.className = "afternoon";
-    greeting.innerHTML = 'You should go for a walk.';
+    greeting.innerHTML = "It'/s probably tme for a break";
   }
   // evening
   else if (hrs >= 16 && hrs <= 19) {
