@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#clock {
+  color: white;
+  text-align: center;
+  font-size: 7em;
+  font-family: 'Fredoka One', sans-serif;
+}
+
+.clock-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  top: calc(50vh - 100px);
+}
+
+#greeting {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+/* backgrounds (gradients from uigradients.com) */
+
+.earlyAm {
+  background: linear-gradient(to bottom, #FFEDBC, #ED4264);
+}
+
+.morning {
+  background: linear-gradient(to top, #fceabb, #f8b500);
+}
+
+.afternoon {
+  background: linear-gradient(to top, #93F9B9, #1D976C);
+}
+
+.evening {
+  background: linear-gradient(to top, #1CB5E0, #000046);
+}
+
+.night {
+  background: linear-gradient(to top, #4e4376, #2b5876);
+}
+
+.lateNight {
+  background: linear-gradient(to top, #434343, #000000);
+}
