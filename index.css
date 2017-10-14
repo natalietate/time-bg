@@ -21,13 +21,21 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  top: calc(50vh - 100px);
+  top: calc(50vh - 200px);
 }
 
-#greeting {
+#greeting,
+#quote {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: white;
+}
+
+#quote {
+  display: block;
+  max-width: 50vw;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
 /* backgrounds (gradients from uigradients.com) */
