@@ -40,7 +40,7 @@ setInterval(logTime, 1000); // check time every second
   // early am
   if (hrs >= 4 && hrs <= 7) {
     document.body.className = "earlyAm"; // change to this background gradient
-    greeting.innerHTML = "Wow, you'/re up early!"; // add this greeting
+    greeting.innerHTML = "Wow, you're up early!"; // add this greeting
     quote.innerHTML = "'I believe great people do things before they are ready.' - Amy Poehler" // add this quote
   }
   // morning
@@ -52,7 +52,7 @@ setInterval(logTime, 1000); // check time every second
   // afternoon
   else if (hrs >= 12 && hrs <= 15) {
     document.body.className = "afternoon";
-    greeting.innerHTML = "It'/s probably tme for a break";
+    greeting.innerHTML = "It's probably tme for a break";
     quote.innerHTML = "'It is possible to commit no mistakes and still lose.' - Captain Jean-Luc Picard"
   }
   // evening
@@ -70,8 +70,8 @@ setInterval(logTime, 1000); // check time every second
   // late night
   else {
     document.body.className = "lateNight"
-    greeting.innerHTML = "You'/re up late!";
-    quote.innerHTML = "'The good thing about science is that it'/s true whether or not you believe in it.' - Neil deGrasse Tyson "
+    greeting.innerHTML = "You're up late!";
+    quote.innerHTML = "'The good thing about science is that it's true whether or not you believe in it.' - Neil deGrasse Tyson "
   };
   setTimeout(logHour, 60000); // check time every minute, in case someone is viewing page at XX:59
 })();
