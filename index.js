@@ -52,7 +52,7 @@ setInterval(logTime, 1000); // check time every second
   // afternoon
   else if (hrs >= 12 && hrs <= 15) {
     document.body.className = "afternoon";
-    greeting.innerHTML = "It's probably tme for a break";
+    greeting.innerHTML = "It's probably time for a break";
     quote.innerHTML = "'It is possible to commit no mistakes and still lose.' - Captain Jean-Luc Picard"
   }
   // evening
