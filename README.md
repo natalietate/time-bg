@@ -12,4 +12,4 @@ In addition to telling time, the clock's background, greeting, and quote updates
 
 The background gradients were chosen to reflect the sky at that time of day.
 
-*Notes: The clock updates every second.The background, quote, and greeting are updated every minute.*
+*Notes: The clock updates every second. The background, quote, and greeting are refreshed about every minute. It's like magic!*
