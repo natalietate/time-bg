@@ -62,3 +62,10 @@ body {
 .lateNight {
   background: linear-gradient(to top, #434343, #000000);
 }
+
+
+@media screen and (max-width: 480px) {
+  #clock {
+    font-size: 4em;
+  }
+}
