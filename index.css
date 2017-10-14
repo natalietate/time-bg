@@ -24,8 +24,7 @@ body {
   top: calc(50vh - 200px);
 }
 
-#greeting,
-#quote {
+#greeting, #quote {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: white;

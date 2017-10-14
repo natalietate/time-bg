@@ -39,9 +39,9 @@ setInterval(logTime, 1000); // check time every second
 
   // early am
   if (hrs >= 4 && hrs <= 7) {
-    document.body.className = "earlyAm";
-    greeting.innerHTML = "Wow, you'/re up early!";
-    quote.innerHTML = "'I believe great people do things before they are ready.' - Amy Poehler"
+    document.body.className = "earlyAm"; // change to this background gradient
+    greeting.innerHTML = "Wow, you'/re up early!"; // add this greeting
+    quote.innerHTML = "'I believe great people do things before they are ready.' - Amy Poehler" // add this quote
   }
   // morning
   else if (hrs >= 8 && hrs <= 11) {
@@ -59,7 +59,7 @@ setInterval(logTime, 1000); // check time every second
   else if (hrs >= 16 && hrs <= 19) {
     document.body.className = "evening",
       greeting.innerHTML = "Is it time for happy hour yet?";
-      quote.innerHTML = "'Friends should be like books, few, but hand-selected.' ― C.J. Langenhoven"
+    quote.innerHTML = "'Friends should be like books, few, but hand-selected.' ― C.J. Langenhoven"
   }
   // night
   else if (hrs >= 20 && hrs <= 23) {
