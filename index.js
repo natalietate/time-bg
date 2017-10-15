@@ -40,7 +40,7 @@ setInterval(logTime, 1000); // check time every second
   // night
   if (hrs >= 20) {
     document.body.className = "night"; // change to this background gradient
-    greeting.innerHTML = "Have a great night.";  // add this greeting
+    greeting.innerHTML = "Have a great night."; // add this greeting
     quote.innerHTML = "'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.' - Douglas Adams" // add this quote
   }
 
