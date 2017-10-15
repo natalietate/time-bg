@@ -39,9 +39,9 @@ setInterval(logTime, 1000); // check time every second
 
   // night
   if (hrs >= 20) {
-    document.body.className = "night";
-    greeting.innerHTML = "Have a great night.";
-    quote.innerHTML = "'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.' - Douglas Adams"
+    document.body.className = "night"; // change to this background gradient
+    greeting.innerHTML = "Have a great night.";  // add this greeting
+    quote.innerHTML = "'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.' - Douglas Adams" // add this quote
   }
 
   // evening
@@ -67,9 +67,9 @@ setInterval(logTime, 1000); // check time every second
 
   // early am
   else if (hrs >= 4) {
-    document.body.className = "earlyAm"; // change to this background gradient
-    greeting.innerHTML = "Wow, you're up early!"; // add this greeting
-    quote.innerHTML = "'I believe great people do things before they are ready.' - Amy Poehler" // add this quote
+    document.body.className = "earlyAm";
+    greeting.innerHTML = "Wow, you're up early!";
+    quote.innerHTML = "'I believe great people do things before they are ready.' - Amy Poehler"
   }
 
   // late night
