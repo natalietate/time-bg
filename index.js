@@ -41,21 +41,21 @@ setInterval(logTime, 1000); // check time every second
   if (hrs >= 20) {
     document.body.className = "night"; // change to this background gradient
     greeting.innerHTML = "Have a great night."; // add this greeting
-    quote.innerHTML = "'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.' - Douglas Adams" // add this quote
+    quote.innerHTML = "'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.' - Douglas Adams"; // add this quote
   }
 
   // evening
   else if (hrs >= 16) {
-    document.body.className = "evening",
+    document.body.className = "evening";
       greeting.innerHTML = "Is it time for happy hour yet?";
-    quote.innerHTML = "'Friends should be like books, few, but hand-selected.' ― C.J. Langenhoven"
+    quote.innerHTML = "'Friends should be like books, few, but hand-selected.' ― C.J. Langenhoven";
   }
 
   // afternoon
   else if (hrs >= 12) {
     document.body.className = "afternoon";
     greeting.innerHTML = "It's probably time for a break";
-    quote.innerHTML = "'It is possible to commit no mistakes and still lose.' - Captain Jean-Luc Picard"
+    quote.innerHTML = "'It is possible to commit no mistakes and still lose.' - Captain Jean-Luc Picard";
   }
 
   // morning
@@ -69,15 +69,15 @@ setInterval(logTime, 1000); // check time every second
   else if (hrs >= 4) {
     document.body.className = "earlyAm";
     greeting.innerHTML = "Wow, you're up early!";
-    quote.innerHTML = "'I believe great people do things before they are ready.' - Amy Poehler"
+    quote.innerHTML = "'I believe great people do things before they are ready.' - Amy Poehler";
   }
 
   // late night
   else {
-    document.body.className = "lateNight"
+    document.body.className = "lateNight";
     greeting.innerHTML = "You're up late!";
-    quote.innerHTML = "'The good thing about science is that it's true whether or not you believe in it.' - Neil deGrasse Tyson "
-  };
+    quote.innerHTML = "'The good thing about science is that it's true whether or not you believe in it.' - Neil deGrasse Tyson";
+  }
   setTimeout(logHour, 60000); // check time every minute, in case someone is viewing page at XX:59
 })();
 
